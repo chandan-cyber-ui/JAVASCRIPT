@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=+prompt("enter the 1st no");
+        let n2=+prompt("enter the 2nd no");
+        let symbol=prompt("enter the symbol want to perform");
+        let res;
+
+        if(symbol=='+'){
+          res=  n1+n2;
+          console.log(res)
+        }
+        else if(symbol=='-')
+        {
+           res= n1-n2
+           console.log(res)
+        }
+          else if(symbol=='*')
+        {
+           res= n1*n2
+           console.log(res)
+        }
+          else if(symbol=='/')
+        {
+           res= n1/n2
+           console.log(res)
+        }
+        else{
+            console.log("invalid")
+        }
+    </script>
+</body>
+</html>
