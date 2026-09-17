@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let unit= +prompt("please enter the unit")
+        let bill=0;
+        if(unit<=50){
+            bill=0;
+            console.log(bill)
+        }
+        else if(unit<=100){
+            bill=unit*2;
+            console.log(bill)
+        }
+        else if(unit<=200){
+            bill=unit*3;
+            console.log(bill)
+        }
+        else if(unit<300){
+            bill=unit*5;
+            console.log(bill)
+        }
+        else if(unit>=300){
+            bill=unit*7;
+            console.log(bill)
+        }
+        else if(unit>500){
+            bill=0;
+            console.log(bill)
+        }
+        else{
+            console.log("invalid enter")
+        }
+    </script>
+</body>
+</html>
