@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = +prompt("enter the 1st no")
+        let b = +prompt("enter the 2st no")
+
+        let symbol = prompt("enter the symbol");
+
+        switch (symbol) {
+            case "+":
+                console.log(a + b)
+                break;
+            case "-":
+                console.log(a -b)
+                break;
+            case "*":
+                console.log(a * b)
+                break;
+            case "/":
+                console.log(a / b)
+                break;
+            case "%":
+                console.log(a % b)
+                break;
+
+            default:
+                console.log("invalid input")
+                break;
+        }
+    </script>
+
+</body>
+
+</html>

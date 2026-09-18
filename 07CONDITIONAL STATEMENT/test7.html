@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+//         Question: Electricity Bill Calculator (JavaScript)
+// 📌 Question
+
+// Write a JavaScript program to calculate an electricity bill based on the number of units consumed.
+
+// Conditions:
+
+// Units Consumed	Rate
+// 0–50	Free (₹0)
+// 51–100	₹2 per unit
+// 101–200	₹3 per unit
+// 201–299	₹5 per unit
+// 300 and above	₹7 per unit
+
+// Example:
+
+// Input:
+
+// Enter units: 150
+
+// Output:
+
+// 450
+// 📝 Algorithm (Step-by-Step)
+// Start the program.
+// Take the number of electricity units from the user.
+// Create a variable bill and initialize it with 0.
+// Check if units are less than or equal to 50.
+// If true, bill = 0.
+// Otherwise, check if units are less than or equal to 100.
+// If true, calculate bill = units × 2.
+// Otherwise, check if units are less than or equal to 200.
+// If true, calculate bill = units × 3.
+// Otherwise, check if units are less than 300.
+// If true, calculate bill = units × 5.
+// Otherwise, check if units are greater than or equal to 300.
+// If true, calculate bill = units × 7.
+// Print the final bill.
+// End the program.
+        let unit= +prompt("enter the units");
+        let bill=0;
+        if(unit<=50){
+            bill=0;
+            console.log(bill)
+        }
+        else if(unit<=100){
+            bill=unit*2;
+            console.log(bill)
+        }
+        else if(unit<=200){
+            bill=unit*3;
+            console.log(bill)
+        }
+        else if(unit<300){
+            bill=unit*5;
+            console.log(bill)
+        }
+        else if(unit>=300){
+            bill=unit*7;
+            console.log(bill)
+        }else{
+            console.log("invalid enter")
+        }
+    </script>
+</body>
+</html>
