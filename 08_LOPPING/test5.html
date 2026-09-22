@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // alternate prime no
+        let count=0;
+        for(let num=1;num<=50;num++){
+            let prime =true;
+            if(prime<1){
+                prime=false;
+            }else{
+                for(let i=2;i<=parseInt(num/2);i++){
+                    if(num%i==0){
+                        prime=false;
+                        break;
+                    }
+                }
+            }
+            if(prime){
+               console.log(num)
+               count++;
+               if(count==3)break;
+              
+              
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
