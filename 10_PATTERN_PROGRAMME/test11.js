@@ -1,7 +1,9 @@
+ 
 for(let i=1;i<=5;i++){
-    let res="";
+   let res="";
     for(let j=1;j<=5;j++){
-        res=res+"*";
+        res=res+"* ";
     }
-    console.log(res)
+console.log(res)
 }
+

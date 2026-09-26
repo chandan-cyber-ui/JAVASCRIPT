@@ -1,10 +1,10 @@
-// let str="";
-// for(let i=0;i<=5;i++){
-//     str="*";
-// }
-// console.log(str)
-let str="";
-for(let i=0;i<=5;i++){
-    str=str+"*";
+function name() {
+    console.log("main is calling ")
+    
 }
-console.log(str)
+main();
+
+function m1() {
+    console.log(" m1 is calling")
+    
+}
